@@ -21,3 +21,6 @@ get-ollama:
 
 ollama-run-granite-code:
 	ollama run granite-code:8b
+
+podman-openwebui:
+	podman run -d --name openwebui --network=host ghcr.io/open-webui/open-webui:main
